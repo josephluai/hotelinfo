@@ -1,6 +1,66 @@
-address{
-font-size: 50px;
+#container{
+	background-color: #008080;
+	height: 550px;
+	width: 600px;
+	border-radius: 8px;
+	position: relative;
+	top: 50px;
+	left: 25%
 }
-h1{
-font-size: 70px;
+.screen{
+	background-color: #ffff99;
+	width: 570px;
+	height: 90px;
+	position: relative;
+	top: 20px;
+	left: 15px;
+}
+.screen input{
+	position: relative;
+	left: 1px;
+	top: 2px;
+	height: 81px;
+	width: 561px;
+	color: black;
+	background-color: #e5dfa0;
+	font-size: 25px;
+	text-align: right;
+}
+.btns{
+	position: relative;
+	top: 30px;
+	left: 15px;
+}
+.button{
+	width: 100px;
+	height: 40px;
+	border: none;
+	border-radius: 7px;
+	margin-left: 10px;
+	cursor: pointer;
+	font-size: 25px;
+}
+.button.black{
+	color: white;
+	background-color: black;
+	border-bottom: 2px solid black;
+	border-top: 2px black;
+}
+.button.silver{
+	color: white;
+	background-color: gray;
+	border-bottom: 2px solid gray;
+}
+.button.red{
+	color: white;
+	background-color: red;
+	border-bottom: 2px solid red;
+}
+
+p{
+	line-height: 30px;
+}
+body{
+	background-image: url("../School/background.jpg");
+    background-attachment: fixed;
 }
