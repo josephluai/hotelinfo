@@ -1,65 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hotel information</title>
-	<link href="style.css" type="text/css" rel="stylesheet">
+                <title>Capacitance caculator</title>
+                <link rel="stylesheet" type="text/css" href="calc.css">
+                <script type="text/javascript">
+                        function changeSign(input){
+                                if (calculator.display.value.substring(0,1)=="-")
+                                        calculator.display.value=calculator.display.value.substring(1,calculator.display.value.length)
+                                else
+                                        calculator.display.value="-"+calculator.display.value
+                        }
+                </script>
+                <style>
+                </style>
 </head>
 <body>
-	<p>
-		<h1>Hilton Garden Inn Atlanta</h1>
-		<address><a href="https://www.google.com/maps/place/2040+Sugarloaf+Cir,+Duluth,+GA+30097/@33.9869963,-84.0892411,17z/data=!3m1!4b1!4m5!3m4!1s0x88f5bd38e61a888f:0x17e22f6a3f94e1ab!8m2!3d33.9869963!4d-84.0870524">
-			2040 Sugarloaf Cir,<br/>
-		Duluth, GA 30097 </a> </address>
-		<br>
-	<hr color="black" style="width: 100%">
-		<h1>Residence Inn </h1>
-		<address><a href="https://www.google.com/maps/place/1760+Pineland+Rd,+Duluth,+GA+30096/@33.9462902,-84.1347097,17z/data=!3m1!4b1!4m5!3m4!1s0x88f5a36d5752a3b9:0x3a052f0a1b1fd69!8m2!3d33.9462858!4d-84.1325157">
-			1760 Pineland Rd,<br/>
-		Duluth, GA 30096 </a></address>
-		<br>
-	<hr color="black" style="width: 100%">
-		<h1>Sonesta Gwinnett Place Atlanta </h1>
-		<address><a href="https://www.google.com/maps/place/1175+Pleasant+Hill+Rd,+Lawrenceville,+GA+30044/@33.9314339,-84.1233862,17z/data=!3m1!4b1!4m5!3m4!1s0x88f5a35db2f0464d:0x7184ecebc438c0e2!8m2!3d33.9314295!4d-84.1211922">
-			1175 Pleasant Hill Rd,<br/>
-		Duluth, GA 30096 </a></address>
-		<br>
-	<hr color="black" style="width: 100%">
-		<h1>Quality Inn Duluth</h1>
-		<address><a href="https://www.google.com/maps/place/3500+Venture+Pkwy+NW,+Duluth,+GA+30096/@33.9548174,-84.1295047,17z/data=!3m1!4b1!4m5!3m4!1s0x88f5a316d6094c7f:0xec466a39e75d2c2e!8m2!3d33.954813!4d-84.1273107">
-			3500 Venture Pkwy NW,<br/>
-		Duluth, GA 30096 </a></address>
-		<br>
-	<hr color="black" style="width: 100%">
-		<h1>Courtyard Atlanta Suwanee </h1>
-		<address><a href="https://www.google.com/maps/place/310+Celebration+Dr,+Suwanee,+GA+30024/@34.0246814,-84.0538332,17z/data=!3m1!4b1!4m5!3m4!1s0x88f5963119b137ed:0xc7eb25bfbf453b8a!8m2!3d34.024677!4d-84.0516392">
-			310 Celebration Dr,<br/>
-		Suwanee, GA 30024 </a></address>
-		<br>
-	<hr color="black" style="width: 100%">
-		<h1>Redroof Inn Suwanee </h1>
-		<address><a href="https://www.google.com/maps/place/3103+Lawrenceville-Suwanee+Rd,+Suwanee,+GA+30024/@34.0331349,-84.0517405,17z/data=!3m1!4b1!4m5!3m4!1s0x88f5964814572319:0xdc9b70b224c2f7cd!8m2!3d34.0331305!4d-84.0495465">
-			3103 Lawrenceville Suwanee Rd,<br/>
-		Suwanee, GA 30024 </a></address>
-		<br>
-	<hr color="black" style="width: 100%">
-		<h1>Super 8 Suwanee </h1>
-		<address><a href="https://www.google.com/maps/place/317+Sawmill+Dr,+Suwanee,+GA+30024/@34.0324422,-84.0511083,17z/data=!3m1!4b1!4m5!3m4!1s0x88f596480f799ff9:0x391490f294da92ce!8m2!3d34.0324378!4d-84.0489143">
-			317 Sawmill Dr,<br/>
-		Suwanee, GA 30024 </a></address>
-		<br>
-	<hr color="black" style="width: 100%">
-		<h1>Congress Hotel Norcross </h1>
-		<address><a href="https://www.google.com/maps/place/5885+Oakbrook+Pkwy,+Norcross,+GA+30093/@33.9151158,-84.2024453,17z/data=!3m1!4b1!4m5!3m4!1s0x88f5a6ba3f794825:0x7b2746bc2ad7dd83!8m2!3d33.9151114!4d-84.2002513">
-			5885 Oakbrook Pkwy,<br/>
-		Norcross, GA 30093 </a></address>
-		<br>
-	<hr color="black" style="width: 100%">
-		<h1>Araamda Inn Norcross </h1>
-		<address><a href="https://www.google.com/maps/place/5985+Oakbrook+Pkwy,+Norcross,+GA+30093/@33.9136608,-84.2047516,17z/data=!3m1!4b1!4m5!3m4!1s0x88f5a6b973c12047:0xfa34612e8c14aa38!8m2!3d33.9136564!4d-84.2025576">
-			5985 Oakbrook Pkwy,<br/>
-		Norcross, GA 30093 </a></address>
-		<br>
-	<hr color="black" style="width: 100%">
-	</p>
+<div id="container">     
+<div class="screen"><form name="calculator"><input type="text" name="display" id="scn" size="20" maxlength="50"></form></div>
+<div class="btns">
+                <p>
+                                <input type="button" value="SIN" class="button black" onclick="calculator.display.value=Math.sin(calculator.display.value)">
+                                <input type="button" value="COS" class="button black" onclick="calculator.display.value=Math.cos(calculator.display.value)">
+                                <input type="button" value="TAN" class="button black" onclick="calculator.display.value=Math.tan(calculator.display.value)">
+                                <input type="button" value="(P" class="button black" onclick="calculator.display.value+='('">
+                                <input type="button" value="P)" class="button black" onclick="calculator.display.value+=')+'">
+                </p>
+                <p>
+                                <input type="button" value="&radic;" class="button black" onclick="calculator.display.value=Math.sqrt(calculator.display.value)">
+                                <input type="button" value="SQR" class="button black" onclick="calculator.display.value=Math.pow(calculator.display.value,2)">
+                                <input type="button" value="^" class="button black" onclick="calculator.display.value+='**'">
+                                <input type="button" value="(S/" class="button black" onclick="calculator.display.value+='(1/('">
+                                <input type="button" value="S)+" class="button black" onclick="calculator.display.value+=')+'">
+                </p>
+                <p>
+                                <input type="button" value="ABS" class="button black" onclick="calculator.display.value=Math.abs(calculator.display.value)">
+                                <input type="button" value="(" class="button black" onclick="calculator.display.value+='('">
+                                <input type="button" value=")" class="button black" onclick="calculator.display.value+=')'">
+                                <input type="button" value="(-)" class="button black" onclick="changeSign(calculator.display.value)">
+                                <input type="button" value="&#x3C0;" class="button black" onclick="calculator.display.value+=Math.PI">
+                </p>
+                <p>
+                                <input type="button" value="7" class="button silver" onclick="calculator.display.value+='7'">
+                                <input type="button" value="8" class="button silver" onclick="calculator.display.value+='8'">
+                                <input type="button" value="9" class="button silver" onclick="calculator.display.value+='9'">
+                                <input type="button" value="DEL" class="button red" onclick="calculator.display.value=calculator.display.value=calculator.display.value.substring(0,calculator.display.value.length-1)">
+                                <input type="button" value="CLR" class="button red" onclick="calculator.display.value=''">
+                </p>
+                <p>
+                                <input type="button" value="4" class="button silver" onclick="calculator.display.value+='4'">
+                                <input type="button" value="5" class="button silver" onclick="calculator.display.value+='5'">
+                                <input type="button" value="6" class="button silver" onclick="calculator.display.value+='6'">
+                                <input type="button" value="x" class="button silver" onclick="calculator.display.value+='*'">
+                                <input type="button" value="/" class="button silver" onclick="calculator.display.value+='/'">
+                </p><p>
+                                <input type="button" value="1" class="button silver" onclick="calculator.display.value+='1'">
+                                <input type="button" value="2" class="button silver" onclick="calculator.display.value+='2'">
+                                <input type="button" value="3" class="button silver" onclick="calculator.display.value+='3'">
+                                <input type="button" value="+" class="button silver" onclick="calculator.display.value+='+'">
+                                <input type="button" value="-" class="button silver" onclick="calculator.display.value+='-'">
+                </p><p>
+                                <input type="button" value="0" class="button silver" onclick="calculator.display.value+='0'">
+                                <input type="button" value="." class="button silver" onclick="calculator.display.value+='.'">
+                                <input type="button" value="&micro;" class="button silver" onclick="calculator.display.value+='*(10**-6))'">
+                                <input type="button" value="m" class="button silver" onclick="calculator.display.value+='*(10**-3))'">
+                                <input type="button" value="=" class="button silver" onclick="calculator.display.value=eval(calculator.display.value)">
+
+                </p>
+ 
+ 
+ 
+</div>
+ 
+ 
+ 
+</div>
+ 
 </body>
 </html>
